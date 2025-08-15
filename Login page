@@ -6,16 +6,19 @@
 <title>Login Page</title>
 <style>
      body {
+        
         font-family: Arial, sans-serif;
-        background: #f4f4f4;
+        background: white;
         margin: 0;
         display: flex;
         height: 100vh;
         justify-content: center;
         align-items: center;
+        background: url("https://static.vecteezy.com/system/resources/previews/002/099/443/non_2x/programming-code-coding-or-hacker-background-programming-code-icon-made-with-binary-code-digital-binary-data-and-streaming-digital-code-vector.jpg")
+
     }
     .login-container, .alert-box {
-        background: #fff;
+        background: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -29,14 +32,14 @@
         border: 1px solid #ccc;
         border-radius: 5px;
     }
-    input:focus { border-color: #4CAF50; outline: none; }
+    input:focus { border-color: powderblue; outline: none; }
     button {
-        background: #4CAF50;
+        background: powderblue;
         color: white;
         border: none;
         cursor: pointer;
     }
-    button:hover { background: #45a049; }
+    button:hover { background: blue; }
     .alert {
         display: none;
         position: fixed;
@@ -50,12 +53,12 @@
         display: inline-block;
         margin-top: 10px;
         padding: 6px 15px;
-        background: #4CAF50;
-        color: #fff;
+        background: powderblue;
+        color: white;
         border-radius: 5px;
         text-decoration: none;
     }
-    .close-btn:hover { background: #45a049; }
+    .close-btn:hover { background: powderblue; }
 </style>
 </head>
 <body>
@@ -87,3 +90,4 @@
 
 </body>
 </html>
+
